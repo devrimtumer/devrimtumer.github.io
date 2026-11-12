@@ -1,126 +1,38 @@
 <!doctype html>
-<html lang="en">
-
-<head>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="img/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- jQuery UI css -->
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- Google font, Mulish -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-
-    <!-- FontAwesome icon include -->
-    <script src="https://kit.fontawesome.com/b730292a05.js" crossorigin="anonymous"></script>
-
-    <!-- Main local styles -->
-    <link rel="stylesheet" href="css/main.css">
-
-    <title>Nagehan Demirci</title>
-
-</head>
-
-<body id="top">
-
-    <!-- navbar include -->
-    <div id="page-navbar"></div>
-
-    <!-- main wrapper div -->
-    <div class="container" id="wrapper">
-
-        <div class="row mx-4">
-            <div class="col-sm-12">
-
-                <h1 id="page-lead">CV</h1>
-
-                <p>Find my current curriculum vitae below.</p>
-
-                <p class='text-right'><a href='#' target='_blank'><i class='fad fa-print fa-fw' aria-hidden='true'></i>&nbsp;Print Vitae</a></p>
-                <iframe id="vitae-iframe" width='100%' height='900px' frameborder='0' scrolling='yes' class='embed-responsive-item' src='cv of Devrim Tümer.pdf' allowfullscreen>
-                </iframe>
-
-            </div>
-        </div>
-
-    </div>
-    <!-- #wrapper .container -->
-    <!-- Footer include -->
-    <div id="page-footer"></div>
-
-    <!-- Back to top button -->
-    <a role="button" id="back-to-top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-angle-up" aria-hidden="true"></i></a>
-
-    <div class="modal fade" id="modal-map-to-office" tabindex="-1" role="dialog" aria-labelledby="office-map-modal-label" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="office-map-modal-label">Map to my office</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="image-fluid dx-auto" src="img/map.png" alt="map to my office">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jquery JS minified -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-    <!-- jquery ui -->
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-    <!-- popper minified -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
-    <!-- bootstrap JS minified -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-    <!-- Main local scripts -->
-    <script src="js/main.js"></script>
-
-    <script>$(function() {
-
-      // Load the top page navbar
-      $("#page-navbar").load("page-navbar.html", function() {
-
-        $("#me").removeClass("active");
-        $("#vitae").addClass("active");
-
-      });
-
-    });
-    // document.ready</script>
-
-</body>
-
-</html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About &amp; CV — Devrim Tümer</title><meta name="description" content="Academic background, research appointments, education, teaching and downloadable CV of Devrim Tümer, Ph.D. candidate and Research Assistant at Ege University.">
+<meta name="author" content="Devrim Tümer"><meta name="theme-color" content="#f6f4ee"><meta name="color-scheme" content="light">
+<link rel="canonical" href="https://devrimtumer.com/vitae.html"><link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml"><link rel="icon" href="assets/images/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png"><link rel="manifest" href="manifest.webmanifest">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Devrim Tümer"><meta property="og:title" content="About &amp; CV — Devrim Tümer"><meta property="og:description" content="Academic background, research appointments, education, teaching and downloadable CV of Devrim Tümer, Ph.D. candidate and Research Assistant at Ege University."><meta property="og:url" content="https://devrimtumer.com/vitae.html"><meta property="og:image" content="https://devrimtumer.com/assets/images/social-card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Devrim Tümer — Mechanics and computation. An illustrated continuum material element."><meta property="og:locale" content="en_GB"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="About &amp; CV — Devrim Tümer"><meta name="twitter:description" content="Academic background, research appointments, education, teaching and downloadable CV of Devrim Tümer, Ph.D. candidate and Research Assistant at Ege University."><meta name="twitter:image" content="https://devrimtumer.com/assets/images/social-card.png">
+<link rel="preload" href="assets/fonts/dm-sans-regular.woff" as="font" type="font/woff" crossorigin><link rel="preload" href="assets/fonts/source-serif-regular.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://devrimtumer.com/#person","name":"Devrim Tümer","givenName":"Devrim","familyName":"Tümer","url":"https://devrimtumer.com/","jobTitle":"Ph.D. Candidate and Research Assistant in Mechanical Engineering","email":"mailto:devrim.tumer@ege.edu.tr","affiliation":[{"@type":"CollegeOrUniversity","name":"Ege University","url":"https://ege.edu.tr/"},{"@type":"CollegeOrUniversity","name":"Graz University of Technology","url":"https://www.tugraz.at/"}],"sameAs":["https://orcid.org/0000-0003-2806-7648","https://www.researchgate.net/profile/Devrim-Tuemer"],"knowsAbout":["Computational biomechanics","Constitutive modelling","Continuum mechanics","Finite element analysis","Multiscale modelling","Scientific computing"]},{"@type":"WebSite","@id":"https://devrimtumer.com/#website","name":"Devrim Tümer — Mechanics & Computation","url":"https://devrimtumer.com/"},{"@type":"WebPage","@id":"https://devrimtumer.com/vitae.html#webpage","url":"https://devrimtumer.com/vitae.html","name":"About & CV — Devrim Tümer","description":"Academic background, research appointments, education, teaching and downloadable CV of Devrim Tümer, Ph.D. candidate and Research Assistant at Ege University.","inLanguage":"en","dateModified":"2026-11-12","about":{"@id":"https://devrimtumer.com/#person"},"isPartOf":{"@id":"https://devrimtumer.com/#website"}}]}</script>
+<script src="assets/js/site.js" defer></script>
+</head><body><a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top"><div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Devrim Tümer — home"><span class="brand-mark" aria-hidden="true">D</span><span><span class="brand-name">Devrim Tümer</span><span class="brand-caption">Mechanics &amp; computation</span></span></a>
+      <button class="menu-toggle" data-menu-toggle type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation"><span>Menu</span><span class="menu-lines" aria-hidden="true"></span></button>
+      <nav class="site-nav" id="site-navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="vitae.html" aria-current="page">About & CV</a><a class="nav-contact" href="#contact">Get in touch <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></nav>
+    </div></header><main id="main">
+<div class="container"><header class="page-hero"><p class="eyebrow">About · Academic background</p><h1>Mechanics is the foundation.<br><em>Curiosity is the starting point.</em></h1><p class="lead">Devrim Tümer · Ph.D. Candidate in Mechanical Engineering<br>Research Assistant, Ege University · Guest Researcher, TU Graz</p><div class="page-actions"><a class="button" href="assets/docs/Devrim_Tumer_CV.pdf" download>Download academic CV <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a><a class="button secondary" href="https://orcid.org/0000-0003-2806-7648">ORCID profile <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a></div></header>
+<section class="section bio-grid" aria-labelledby="bio-heading"><div><p class="eyebrow plain">Research &amp; perspective</p><h2 id="bio-heading" style="margin-top:22px">Between theory<br>and computation.</h2></div><div class="bio-copy"><p>I am a <strong>Ph.D. candidate and Research Assistant</strong> in the Department of Mechanical Engineering at Ege University, and a <strong>Guest Researcher</strong> at the Institute of Biomechanics, Graz University of Technology.</p><p>My research centres on computational biomechanics and the constitutive modelling of soft biological and biomimetic materials. I work across mathematical formulation, numerical implementation and comparison with experimental data, with interests in hyperelasticity, viscoelasticity, parameter identification and multiscale modelling.</p><p>My background in mechanical engineering includes research on shoulder biomechanics, implant materials and thermal analysis. These applications share a common thread: using mechanics and computation to examine a physical system in a precise, testable way.</p></div></section>
+<section class="section timeline-section" aria-labelledby="timeline-heading"><div class="section-head"><div><p class="eyebrow plain">Education &amp; appointments</p><h2 id="timeline-heading">An academic trajectory.</h2></div></div><div class="timeline">
+ <article class="timeline-item"><p class="timeline-date">2025–2026<br>Research visits</p><div><h3>Guest Researcher</h3><p class="institution">Institute of Biomechanics · Graz University of Technology</p><p>Constitutive modelling and computational biomechanics.<br>Research visits: August–October 2025 and February–December 2026, as listed in the <a href="https://biomech.tugraz.at/visitors" style="text-decoration:underline">institute’s visitor record ↗</a>.</p></div></article>
+ <article class="timeline-item"><p class="timeline-date">2021–present</p><div><h3>Ph.D. Candidate, Mechanical Engineering</h3><p class="institution">Ege University · İzmir, Türkiye</p><p>Doctoral research on the constitutive modelling of soft biological and biomimetic materials.</p></div></article>
+ <article class="timeline-item"><p class="timeline-date">2020–present</p><div><h3>Research Assistant</h3><p class="institution">Department of Mechanical Engineering · Ege University</p><p>Research, teaching assistance and laboratory activities in mechanics and material characterisation. Appointment began in March 2020.</p></div></article>
+ <article class="timeline-item"><p class="timeline-date">2018–2021</p><div><h3>M.Sc., Mechanical Engineering</h3><p class="institution">Dokuz Eylül University · İzmir, Türkiye</p><p>Master’s research on the finite element analysis of muscle groups in the shoulder joint.</p></div></article>
+ <article class="timeline-item"><p class="timeline-date">2012–2017</p><div><h3>B.Sc., Mechanical Engineering</h3><p class="institution">Dokuz Eylül University · İzmir, Türkiye</p></div></article>
+</div></section>
+<section class="section" style="padding-top:0" aria-labelledby="teaching-heading"><div class="teaching-grid"><div><p class="eyebrow plain">Teaching &amp; academic work</p><h2 id="teaching-heading">Making mechanics<br>understandable.</h2><p>Alongside research, I contribute to undergraduate teaching and laboratory sessions. This includes helping students connect mechanical principles with calculations, material tests and physical observations.</p><p>Laboratory activities include tensile, compression, bending and shear testing.</p></div><ul class="course-list" aria-label="Teaching assistance areas"><li>Statics <span>MECHANICS</span></li><li>Strength of Materials <span>MECHANICS</span></li><li>Computational Mechanics <span>NUMERICAL METHODS</span></li><li>Engineering Materials <span>MATERIALS</span></li><li>Machine Laboratory <span>EXPERIMENTAL WORK</span></li></ul></div>
+ <div class="cv-band"><div><h3>The academic record.</h3><p>Education, appointments, research, teaching and selected publications.<br>Updated 12 November 2026 · PDF · 2 pages</p></div><div class="page-actions"><a class="button" href="assets/docs/Devrim_Tumer_CV.pdf" download>Download CV <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a><button class="button secondary enhanced inline" type="button" data-print>Print this page <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 10h14M11 4l6 6-6 6"/></svg></button></div></div>
+ <details class="privacy-note" id="privacy"><summary>About this website &amp; privacy</summary><p>This is a static academic website. It uses no analytics scripts, advertising trackers, contact-form databases or third-party font requests. Interactive controls run in your browser and do not send their values anywhere. Contact links open your email application. External publisher and profile links are governed by those services’ own policies. The hosting provider may process ordinary connection logs. Questions about this website can be sent to <a href="mailto:devrim.tumer@ege.edu.tr">devrim.tumer@ege.edu.tr</a>.</p></details>
+</section></div>
+</main><section class="contact-section" id="contact" aria-labelledby="contact-heading"><div class="container contact-inner">
+      <div><p class="eyebrow">A conversation starts here</p><h2 id="contact-heading">Let’s talk<br><em>mechanics.</em></h2></div>
+      <div class="contact-info"><p>I welcome scientific discussions and research collaborations in computational biomechanics, constitutive modelling and the mechanics of soft materials.</p>
+      <a class="email-link" href="mailto:devrim.tumer@ege.edu.tr">devrim.tumer@ege.edu.tr <svg class="arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16 16 4M4 4h12v12"/></svg></a>
+      <div class="contact-profiles"><a href="https://orcid.org/0000-0003-2806-7648">ORCID ↗</a><a href="https://www.researchgate.net/profile/Devrim-Tuemer">ResearchGate ↗</a><a href="assets/docs/Devrim_Tumer_CV.pdf" download>Download CV ↓</a></div></div>
+    </div></section>
+    <footer class="site-footer"><div class="container"><div class="footer-inner"><p>© 2026 Devrim Tümer · Mechanics &amp; computation</p><div class="footer-links"><a href="vitae.html#privacy">Privacy</a><a href="https://orcid.org/0000-0003-2806-7648">0000-0003-2806-7648 ↗</a><a href="#top">Back to top ↑</a></div></div></div></footer>
+    <div class="toast" role="status" aria-live="polite" data-toast hidden></div></body></html>
