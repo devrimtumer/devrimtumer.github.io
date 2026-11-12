@@ -1,0 +1,48 @@
+WEBSITE COPYRIGHT AND USE NOTICE
+
+Copyright (c) 2026 Devrim Tümer. All rights reserved.
+Website: https://devrimtumer.com/
+Rights and permissions: devrim.tumer@ege.edu.tr
+
+1. Original website material
+
+To the extent protected by applicable law and owned by Devrim Tümer,
+rights in the original text, visual identity, illustrations, design and
+custom website code are reserved. Except where a separate licence or
+applicable law permits otherwise, copying, republishing, adapting,
+redistributing or commercially reusing that material, including
+reproducing the website as a template, requires prior written permission.
+A credit or link alone does not replace that permission.
+
+2. Browsing, linking and academic reference
+
+Ordinary browsing, linking to the website and citing the research are
+welcome. The CV and bibliography are provided for personal and academic
+reference, without a general licence to republish the website or its design.
+This notice does not restrict quotation, accessibility uses or other uses
+permitted by applicable law. Scientific ideas, standard mathematical
+notation and equations, methods and bibliographic facts are not claimed
+as exclusive property.
+
+3. Third-party rights and licences
+
+Linked publications and publisher resources remain subject to the rights
+and licences of their respective authors and publishers. Institutional
+names and linked profiles do not imply endorsement of this website.
+
+DM Sans and Source Serif are supplied under the SIL Open Font License.
+Their licence notices are preserved at:
+  assets/fonts/DMSans-OFL.txt
+  assets/fonts/SourceSerif4-OFL.txt
+
+The monogram uses modified DejaVu Serif Italic glyph outlines. The SVG
+metadata preserves the relevant Bitstream Vera Font License and DejaVu
+notices. The same font-derived design is used in the supplied raster icons
+and social sharing card. Those third-party terms continue to apply.
+
+This website notice does not override third-party licences or claim
+ownership of third-party components. All rights are reserved only to the
+extent they exist and are held by Devrim Tümer under applicable law.
+
+For permission requests, identify the material and intended use in an email
+to devrim.tumer@ege.edu.tr.
